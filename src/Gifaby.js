@@ -62,13 +62,13 @@ function Home() {
                     
                 </div>
                 
-                {/* <div className='Feed' >
+                <div className='Feed' >
                     {
                         posts.map(({id, post}) => (
                             <Feed key={id} photoUrl={post.photoUrl} username={post.username} description={post.description} imageUrl={post.imageUrl} />
                         ))
                     }
-                </div> */}
+                </div>
                 
             </div>
         </>
