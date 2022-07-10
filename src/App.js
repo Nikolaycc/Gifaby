@@ -22,14 +22,13 @@ const store = createStore(rootReducer, applyMiddleware(thunk))
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAl_fbPDKuFkNsP9l0bXfvP5UY99YaKZaE",
-  authDomain: "gifaby-9c6aa.firebaseapp.com",
-  databaseURL: "https://gifaby-9c6aa.firebaseio.com",
-  projectId: "gifaby-9c6aa",
-  storageBucket: "gifaby-9c6aa.appspot.com",
-  messagingSenderId: "26428908",
-  appId: "1:26428908:web:fc86009d31da379318acc9",
-  measurementId: "G-FZ0KL5JLRH"
+  apiKey: "AIzaSyA7ojeHu__3sxPbLIvDmNkaooUam7LnZWA",
+  authDomain: "gifabyal.firebaseapp.com",
+  projectId: "gifabyal",
+  storageBucket: "gifabyal.appspot.com",
+  messagingSenderId: "1097897302770",
+  appId: "1:1097897302770:web:8fcdd247ea8e922975ce6b",
+  measurementId: "G-C3ETPL23FL"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
